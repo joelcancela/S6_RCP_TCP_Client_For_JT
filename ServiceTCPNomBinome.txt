@@ -1,0 +1,77 @@
+# Requête
+
+## Requête ajout idée:
+
+AINI 1.0
+ADD IDEA
+BEGIN
+{"desc":"desc idea", "idStudent":"idStudent","mailStudent":"email","idIdea":"IDidea"}
+END
+
+## Requête del idée:
+
+AINI 1.0
+DEL IDEA
+BEGIN
+{"idIdea":"idIdea"}
+END
+
+## Requête ajout d'un étudiant à une idée:
+
+AINI 1.0
+ADD STUDENT TO IDEA
+BEGIN
+{"idStudent":"idStudent","mailStudent":"mailStudent","idIdea":"idIdea"}
+END
+
+## Requête de suppression d'étudiant sur une idée
+
+AINI 1.0
+DEL STUDENT FROM IDEA
+BEGIN
+{"idStudent":"idStudent","idIdea":"idIdea"}
+END
+
+## Requête affichage des étudiants d'une idée:
+
+AINI 1.0
+DISP STUDENT
+BEGIN
+{"idIdea":"idIdea"}
+END
+
+## Requête d'affichage des idées
+
+AINI 1.0
+DISP IDEA
+BEGIN
+{}
+END
+
+## Requête de passage d'une idée à Projet
+
+AINI 1.0
+IDEA TO PROJECT
+BEGIN
+{"idIdea":"idIdea"}
+END
+
+## Requête pour accepter un étudiant sur une idée
+
+AINI 1.0
+ACCEPT STUDENT IDEA
+BEGIN
+{"idIdea":"idIdea","idStudent":"idStudent"}
+END
+
+# Réponse
+
+## Opération OK:
+
+AINI 1.0
+OK
+
+## Opération non OK
+
+AINI 1.0
+NOK
