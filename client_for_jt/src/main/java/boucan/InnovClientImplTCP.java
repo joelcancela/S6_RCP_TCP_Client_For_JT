@@ -63,7 +63,7 @@ public class InnovClientImplTCP extends InnovClient {
                         "BEGIN\n" +
                         "{\"desc\":\"desc idea\", \"idStudent\":\"idStudent\",\"mailStudent\":\"email\",\"idIdea\":\"IDidea\"}\n" +
                         "END"));
-            System.out.println(this.in.readLine());
+            //System.out.println(this.in.readLine());
 
             System.out.printf("###> ");
         } catch (IOException e) {
