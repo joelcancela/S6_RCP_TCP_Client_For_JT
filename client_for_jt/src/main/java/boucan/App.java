@@ -4,7 +4,7 @@ package boucan;
  * Hello world!
  *
  */
-public class gApp
+public class App
 {
     public static void main( String[] args )
     {
