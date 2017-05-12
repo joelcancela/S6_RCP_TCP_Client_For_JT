@@ -10,7 +10,7 @@ import java.util.Scanner;
 /**
  * Created by Nassim B on 12/05/17.
  */
-public class MainCliet {
+public class ClientJunacGreaux {
 
     protected static String inputProject() {
         Scanner scanner = new Scanner(System.in);
@@ -37,10 +37,10 @@ public class MainCliet {
             while ((action = scan.next()) != null) {
                 switch (action) {
                     case "add" :
-                        out.println(MainCliet.inputProject());
+                        out.println(ClientJunacGreaux.inputProject());
                         break;
                     case "list" :
-                        out.println("AINI 1.0\nDISP IDEA\nBEGIN\n{ }\nEND");
+                        out.println("AINI 1.0\nDISP IDEA\nBEGIN\n{\"desc\":\"rien\"}\nEND");
                         break;
                 }
                 out.flush();
