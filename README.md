@@ -1,2 +1,2 @@
 # TCP Client for J. & T. Server (AINI)
-Java TCP Client (Polytech'Nice SI3G2 2016-2017)
+Ce projet à été réalisé dans le cadre de la matière "Réseau: Programmation et Configuration". L'application est developée en Java, et sert de client au serveur de J&T (AINI).
