@@ -68,5 +68,9 @@ crashlytics-build.properties
 fabric.properties
 
 # J
-**/.idea/*
+.idea/*
 **/*.iml
+.settings/*
+.project
+*.iml
+.classpath
